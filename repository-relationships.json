@@ -1,0 +1,677 @@
+{
+  "$schema": "./repository-relationships.schema.json",
+  "audience": "public",
+  "generated": {
+    "complete_for_visibility": "public",
+    "generated_at": "2026-08-05T23:41:16Z",
+    "generator_version": "2026-08-04.1",
+    "inventory_digest": "sha256:0f0d671b38e9b897a073a8f3b4073769397cec82720a1bab4096440fada04175",
+    "managed_by": "ore-repository-relationship-rollout",
+    "omitted_repository_count": 0,
+    "private_repositories_omitted": false,
+    "source": "GitHub GraphQL repository inventory plus reviewed manual declarations"
+  },
+  "owner": {
+    "account_type": "organization",
+    "dotgithub_repository": "apostille-me/.github",
+    "github_id": "313130982",
+    "linear_project": {
+      "id": "cc34a745-551a-4395-856b-d8dceffa2293",
+      "name": "github.com/apostille-me",
+      "team_id": "eb8ab169-5afe-4b6f-9cab-3f2aa3e887dc",
+      "url": "https://linear.app/denman/project/githubcomapostille-me-c884fbdbd637",
+      "workspace": "denman"
+    },
+    "login": "apostille-me",
+    "mapping_id": "context:apostille-me"
+  },
+  "private_registry": {
+    "contains_non_public_inventory": false,
+    "digest": "sha256:9d79e3a3b1c9a960e608354fa85df4a53183e0a3f2a8fd25038242ad9a71c836",
+    "path": "owners/apostille-me.json",
+    "repository": "approved-private-registry"
+  },
+  "relationships": [
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:6943f9edeafca8f015cf10f8d1f2a4bc21ecdcd1d573dd1ceab239f5d5d52434",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apme-api",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:795ccfb4bf8d8e32b59a7540ff74128f151985a9d30e8e3c16f97975ae6b5e70",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apme-cli",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:8e27a8ae5fd1ab463cfc61ae0f4273d891deded28b106b9f300d846db4b5756b",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apme-clients",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:1878f3028a81683ef50438a25d790b1e3f4f62d9b77edc1f599219680059af62",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apme-infra",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:43d6fddb0889b6ca3e19b314433987a2e623fe34f389da091b28d38b1e0ea28e",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apme-interfaces",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:24853824f2d6d39bf6c3554ecaf46d1affcacb28231a312cc8ab159a7414ebe9",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apme-libs",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:17fc372e6b202823b20ac7459ae587687d19a566ba81260460c82f087d753d99",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apme-monorepo",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:5b762309da59e31314a16ee364877b049cfc4fac114fe90935242ba7a07ffa13",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apme-sync",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:5787c44096a161e7cd8cec978aca29ba0ea50506d75e1b2e59e314627148fff2",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apme-web-dioxus",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:ce2878dc6a392ab8abe09f60270b9b5a656d245023dc1dc4c5aeed416ff529cc",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apme-web-leptos",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:0cf09ecd29c347694945ebdf5f78ba123185d21082c414f01772d62d8e80a174",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apme-web-mash",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:3ae81424dc459039a5ef877d9d2b1df21851908107908dcd2759ffab66dd4a36",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apostille-me-clients",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:f0b98f40d7effb58bec8fc9fec8eed91ecc1768657fe7820b45444750f131d12",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apostille-me-infra",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:356b717a729a08ec8179956d88ebbe644366a0b367cd121aaccc3c76d4d2ece0",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apostille-me-libs",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:65e07caab367d09898eac779c4105cbe79154300a1afa9bef5c9230fadc06ccd",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apostille-me-monorepo",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "apostille-me/.github",
+      "id": "sha256:11de2c8364a0c3d6a776575d001f4f899c929dfb115d0f1634d763f6ebd2ffdf",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "apostille-me/apostille-me.github.io",
+      "type": "governs"
+    },
+    {
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "family": "apme",
+          "kind": "paired-repository-naming",
+          "source_role": "api-server",
+          "target_role": "interfaces"
+        }
+      ],
+      "from": "apostille-me/apme-api",
+      "id": "sha256:6f641878aa427325f4b58933bdfb2672dfd9d304133e87501770f209020153ac",
+      "notes": "Conservative naming inference; confirm or override in the manual declaration file.",
+      "required": false,
+      "scope": "organization",
+      "status": "inferred",
+      "to": "apostille-me/apme-interfaces",
+      "type": "depends_on"
+    },
+    {
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "family": "apme",
+          "kind": "paired-repository-naming",
+          "source_role": "clients",
+          "target_role": "interfaces"
+        }
+      ],
+      "from": "apostille-me/apme-clients",
+      "id": "sha256:a329040fa1abe79773c747ca05780221b2870ae34e48425bfa13d16f65b3a092",
+      "notes": "Conservative naming inference; confirm or override in the manual declaration file.",
+      "required": false,
+      "scope": "organization",
+      "status": "inferred",
+      "to": "apostille-me/apme-interfaces",
+      "type": "depends_on"
+    },
+    {
+      "confidence": 0.76,
+      "evidence": [
+        {
+          "family": "apme",
+          "kind": "paired-repository-naming"
+        }
+      ],
+      "from": "apostille-me/apme-infra",
+      "id": "sha256:f62a7bbe9499a66413cc236b3d5e57bc2f56d6b7c32cc88b237d7a8c80642d4d",
+      "notes": "Conservative naming inference; confirm or override in the manual declaration file.",
+      "required": false,
+      "scope": "organization",
+      "status": "inferred",
+      "to": "apostille-me/apme-monorepo",
+      "type": "deploys"
+    },
+    {
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "family": "apme",
+          "kind": "paired-repository-naming",
+          "source_role": "sync",
+          "target_role": "interfaces"
+        }
+      ],
+      "from": "apostille-me/apme-sync",
+      "id": "sha256:4ed9dece99960ce91a5e543238f99698c8e85c9ce712445f0e9711c4eafab5a7",
+      "notes": "Conservative naming inference; confirm or override in the manual declaration file.",
+      "required": false,
+      "scope": "organization",
+      "status": "inferred",
+      "to": "apostille-me/apme-interfaces",
+      "type": "depends_on"
+    },
+    {
+      "confidence": 0.76,
+      "evidence": [
+        {
+          "family": "apostille-me",
+          "kind": "paired-repository-naming"
+        }
+      ],
+      "from": "apostille-me/apostille-me-infra",
+      "id": "sha256:d5bcb71720c561beb2c53393ce5e9c559627ecb30ea83515093c5665af634edd",
+      "notes": "Conservative naming inference; confirm or override in the manual declaration file.",
+      "required": false,
+      "scope": "organization",
+      "status": "inferred",
+      "to": "apostille-me/apostille-me-monorepo",
+      "type": "deploys"
+    },
+    {
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "kind": "repository-name",
+          "value": "apostille-me.github.io"
+        }
+      ],
+      "from": "apostille-me/apostille-me.github.io",
+      "id": "sha256:7c3dfb0f598098e2f0b5408261e1c4893ee0f30ea449175b8ec0a7d957661d7a",
+      "notes": "The conventional *.github.io repository documents the organization profile.",
+      "required": false,
+      "scope": "organization",
+      "status": "inferred",
+      "to": "apostille-me/.github",
+      "type": "documents"
+    }
+  ],
+  "repositories": [
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/.github",
+      "github_id": "1324265950",
+      "name": ".github",
+      "owner": "apostille-me",
+      "roles": [
+        "community-health",
+        "governance",
+        "relationship-registry"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/.github",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apme-api",
+      "github_id": "1323563462",
+      "name": "apme-api",
+      "owner": "apostille-me",
+      "roles": [
+        "api-server"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apme-api",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apme-cli",
+      "github_id": "1323563496",
+      "name": "apme-cli",
+      "owner": "apostille-me",
+      "roles": [
+        "repository"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apme-cli",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apme-clients",
+      "github_id": "1323563551",
+      "name": "apme-clients",
+      "owner": "apostille-me",
+      "roles": [
+        "clients"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apme-clients",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apme-infra",
+      "github_id": "1323563625",
+      "name": "apme-infra",
+      "owner": "apostille-me",
+      "roles": [
+        "infrastructure"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apme-infra",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apme-interfaces",
+      "github_id": "1323563717",
+      "name": "apme-interfaces",
+      "owner": "apostille-me",
+      "roles": [
+        "interfaces"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apme-interfaces",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apme-libs",
+      "github_id": "1323563772",
+      "name": "apme-libs",
+      "owner": "apostille-me",
+      "roles": [
+        "repository"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apme-libs",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apme-monorepo",
+      "github_id": "1323563854",
+      "name": "apme-monorepo",
+      "owner": "apostille-me",
+      "roles": [
+        "monorepo"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apme-monorepo",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apme-sync",
+      "github_id": "1323563937",
+      "name": "apme-sync",
+      "owner": "apostille-me",
+      "roles": [
+        "sync"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apme-sync",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apme-web-dioxus",
+      "github_id": "1323563982",
+      "name": "apme-web-dioxus",
+      "owner": "apostille-me",
+      "roles": [
+        "repository"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apme-web-dioxus",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apme-web-leptos",
+      "github_id": "1323564020",
+      "name": "apme-web-leptos",
+      "owner": "apostille-me",
+      "roles": [
+        "repository"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apme-web-leptos",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apme-web-mash",
+      "github_id": "1323564067",
+      "name": "apme-web-mash",
+      "owner": "apostille-me",
+      "roles": [
+        "repository"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apme-web-mash",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apostille-me-clients",
+      "github_id": "1323567597",
+      "name": "apostille-me-clients",
+      "owner": "apostille-me",
+      "roles": [
+        "clients"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apostille-me-clients",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apostille-me-infra",
+      "github_id": "1323567706",
+      "name": "apostille-me-infra",
+      "owner": "apostille-me",
+      "roles": [
+        "infrastructure"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apostille-me-infra",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apostille-me-libs",
+      "github_id": "1323567500",
+      "name": "apostille-me-libs",
+      "owner": "apostille-me",
+      "roles": [
+        "repository"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apostille-me-libs",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apostille-me-monorepo",
+      "github_id": "1323567890",
+      "name": "apostille-me-monorepo",
+      "owner": "apostille-me",
+      "roles": [
+        "monorepo"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apostille-me-monorepo",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "apostille-me/apostille-me.github.io",
+      "github_id": "1323564123",
+      "name": "apostille-me.github.io",
+      "owner": "apostille-me",
+      "roles": [
+        "documentation-site"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/apostille-me/apostille-me.github.io",
+      "visibility": "public"
+    }
+  ],
+  "schema_version": 1,
+  "unresolved_hints": []
+}
