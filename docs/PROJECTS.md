@@ -28,3 +28,12 @@ Documentation branches must be reviewed through pull requests and merged after c
 - **Composition:** committed canonical gitlinks are allowed as source transport and must be adopted with `zed overtake --git-submodules`; duplicate package identities and long-name aliases are prohibited.
 
 GitHub Project #1 tracks execution. The Linear project tracks priority, ownership, dependencies, milestones, and delivery status. Repository, pull-request, CI, release, and runtime evidence remains in GitHub.
+
+
+## Delivery record — `apme-mcp-server.rs` (2026-08-07)
+
+- **Canonical repository published:** https://github.com/apostille-me/apme-mcp-server.rs
+- **Initial commit (seed bootstrap via `publish.sh`):** `909258ae00ec83a0fc71f0d9510e70443f29a1c2`
+- **CI-green commit:** `7ab3198e78ce30849c22584ac9afb5007d3ed2ab` — formatting, Clippy, tests, and Zed manifest checks all passing
+- **Delivery issue:** [apostille-me/.github#4](https://github.com/apostille-me/.github/issues/4), added to organization GitHub Project #1
+- **Outstanding:** `.zpkg.lock` generation awaits a real successful Zed resolver run (DEN-2285)
