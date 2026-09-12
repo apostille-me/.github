@@ -1,0 +1,20 @@
+{
+  "schema": "ore.github-recovery-archive.v1",
+  "organization": "apostille-me",
+  "generated_on": "2026-08-09",
+  "archive": "apostille-me-git-recovery-2026-08-09.tar.gz",
+  "archive_bytes": 77313,
+  "archive_sha256": "2385ccc189d9176130bde7dc053d82479b2d25e31e3c5b03e1d967e1182ce51e",
+  "encoding": "base64 split into ordered UTF-8 text parts",
+  "parts": [
+    "apostille-me-git-recovery-2026-08-09.tar.gz.b64.part0001",
+    "apostille-me-git-recovery-2026-08-09.tar.gz.b64.part0002",
+    "apostille-me-git-recovery-2026-08-09.tar.gz.b64.part0003",
+    "apostille-me-git-recovery-2026-08-09.tar.gz.b64.part0004",
+    "apostille-me-git-recovery-2026-08-09.tar.gz.b64.part0005",
+    "apostille-me-git-recovery-2026-08-09.tar.gz.b64.part0006"
+  ],
+  "credential_shape_scan": "passed",
+  "git_bundle_verify": "passed for every contained bundle",
+  "restore": "concatenate parts in lexical order, base64-decode, then verify SHA-256 and extract"
+}
