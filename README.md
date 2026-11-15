@@ -1,4 +1,6 @@
 # .github
+
+**Scripting and testing policy:** [Rust tests/tools only; no Python scripts or test automation](policies/RUST_FIRST_TESTING.md). See [contributor guidance](CONTRIBUTING.md#rust-first-scripts-and-automation) for migration rules and narrowly documented product-runtime exceptions.
 Organization-wide GitHub, branching, agent, and delivery policy
 
 <!-- ore-org-baseline:begin -->
